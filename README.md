@@ -1,7 +1,31 @@
 
 # Clinic Scheduler API
 
-Clinic Scheduler API is a backend server application built with Node.js, Express, and MongoDB (using Mongoose) that manages clinic-related data through a RESTful CRUD API.
+Clinic Scheduler API is a backend application built to manage scheduling workflows, including appointments and related data processes.
+
+The project emphasizes API reliability, error handling, and maintaining consistent data across system operations.
+
+## Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Postman (API testing)
+
+## Features
+- Appointment scheduling system
+- RESTful API with CRUD operations
+- Data validation and error handling
+- Structured backend architecture (routes, controllers, middleware)
+
+## Troubleshooting & Problem Solving
+During development, I worked on diagnosing and resolving backend system issues:
+
+- Troubleshot API failures affecting scheduling workflows
+- Fixed data integrity issues across database operations
+- Implemented validation to prevent invalid or incomplete data
+- Improved error handling to reduce system failures
+- Tested and verified API endpoints to ensure reliability
 
 ## Setup
 1) Install dependencies
@@ -38,3 +62,8 @@ Clinic Scheduler API is a backend server application built with Node.js, Express
 - GET    /api/notes
 - POST   /api/notes
 - DELETE /api/notes/:id
+
+## GitHub Repository
+https://github.com/mbafousu/clinic-scheduler-api.git
+
+Focused on building reliable systems and resolving real-world application issues through structured debugging and system analysis.
